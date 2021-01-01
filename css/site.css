@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+body {
+    background-color:white;
+}
+
+.header {
+    background-color:rgba(127, 255, 212, 0.5);
+    height: 10%;
+    padding: 20px;
+    text-align: center;
+}
+
+.main {
+    font-family: 'Oswald', sans-serif;
+    height: 80%;
+}
+
+.footer {
+    background-color:rgba(127, 255, 212, 0.5);
+    height: 10%;
+    padding: 10px 20px;
+}
+
+.photo {
+    background-color: rgba(127, 255, 212, 0.5);
+    padding: 20px;
+    text-align: center;
+}
+
+.my_name {
+    color: navy;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.menu_point {
+    font-family: 'Roboto Slab', serif;
+    color: navy;
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-left: 20px;
+    border-top: 2px solid darkgreen;
+}
+
+.material-icons {
+    margin: 10px;
+}
+
+.site_menu {
+    font-family: 'Roboto Slab', serif;
+    margin: 10px;
+    transition: background-color 2s;
+}
+
+.site_menu:link,
+.site_menu:visited {
+    color: navy;
+}
+.site_menu:hover {
+    color: navy;
+    background-color: aquamarine;
+}
+
+.contact {
+    font-family: 'Roboto Slab', serif;
+    color: navy;
+}
+
+#kazntu a:link,
+#kazntu a:visited {
+    color: darkgreen;
+}
+#kazntu a:hover {
+    color: aquamarine;
+    transition: color 2s;
+}
+
+#kazntu_short:link,
+#kazntu_short:visited {
+    color: darkgreen;
+}
+
+#kazntu_short:hover {
+    color: aquamarine;
+    transition: color 2s;
+}
